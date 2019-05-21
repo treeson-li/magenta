@@ -22,7 +22,7 @@ import collections
 
 from magenta.common import tf_utils
 from magenta.models.onsets_frames_transcription import audio_transform
-from magenta.models.onsets_frames_transcription import model
+import model
 import tensorflow as tf
 
 Config = collections.namedtuple('Config', ('model_fn', 'hparams'))
